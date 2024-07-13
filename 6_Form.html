@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+  <link href="css/6_form.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- navbar starts here -->
+  <div id="navbar">
+    <div class="navbar-brand"> M.L. Parmar college of Computer Sci. & IT </div>
+  </div>
+  <!-- navbar ends here -->
+
+  <form>
+    <div class="card signup-card">
+      <div class="card-header">Sign Up</div>
+      <!-- card body starts -->
+      <div class="card-body">
+        <div class="form-element">
+          <div class="form-label"><label for="email">Email</label></div>
+          <div class="form-control-container">
+            <input type="email" class="form-control" id="email" name="email" />
+          </div>
+        </div>
+
+        <div class="form-element">
+          <div class="form-label"><label for="password">Password</label></div>
+          <div class="form-control-container">
+            <input type="password" class="form-control" id="password" name="password">
+          </div>
+        </div>
+
+        <div class="form-element">
+          <div class="form-label"><label for="city">City</label></div>
+          <div class="form-control-container">
+            <input type="text" class="form-control" id="city" name="city">
+          </div>
+        </div>
+
+        <div class="form-element">
+          <div class="form-label">
+            <label for="favouritecolor">Favourite Color</label>
+          </div>
+          <div class="form-control-container">
+            <input type="color" >
+          </div>
+        </div>
+
+        <div class="form-element">
+          <div class="form-label">
+            <label for="dateofbirth">Date of Birth</label>
+          </div>
+          <div class="form-control-container">
+            <input type="date" class="form-control" id="dateofbirth" name="dateofbirth">
+          </div>
+        </div>
+
+        <div class="form-element">
+          <div class="form-label">
+            <label for="dateandtimeofjourney">Date & Time of Journey</label>
+          </div>
+          <div class="form-control-container">
+            <input type="datetime-local" class="form-control" id="dateandtimeofjourney" name="dateandtimeofjourney">
+          </div>
+        </div>
+
+        <div class="form-element">
+          <div class="form-label">
+            <label for="timeofjourney">Time of Journey</label>
+          </div>
+          <div class="form-control-container">
+            <input type="time" class="form-control" id="timeofjourney" name="timeofjourney">
+          </div>
+        </div>
+
+        <div class="form-element">
+          <div class="form-label">
+            <label for="monthofjourney">Month of Journey</label>
+          </div>
+          <div class="form-control-container">
+            <input type="month" class="form-control" id="monthofjourney" name="monthofjourney">
+          </div>
+        </div>
+
+        <div class="form-element">
+          <div class="form-label">
+            <label for="weekofjourney">Week of Journey</label>
+          </div>
+          <div class="form-control-container">
+            <input type="week" class="form-control" id="weekofjourney" name="weekofjourney">
+          </div>
+        </div>
+
+        <div class="form-element">
+          <div class="form-label">
+            <label for="profilepic">Profile Picture</label>
+          </div>
+          <div class="form-control-container">
+            <input type="file" class="form-control" id="profilepic" name="profilepic">
+          </div>
+        </div>
+
+        <div class="form-element">
+          <div class="form-label">
+            <label for="portfoliourl">Portfolio Url</label>
+          </div>
+          <div class="form-control-container">
+            <input type="url" class="form-control" id="portfoliourl" name="portfoliourl">
+          </div>
+        </div>
+
+        <div class="form-element">
+          <div class="form-label">
+            <label for="amount">Amount</label>
+          </div>
+          <div class="form-control-container">
+            <input type="number" class="form-control" id="amount" name="amount">
+          </div>
+        </div>
+
+        <div class="form-element">
+          <div class="form-label">
+            <label for="websiterating">Website Rating</label>
+          </div>
+          <div class="form-control-container">
+            <input type="range" min="1" max="5" class="form-control" id="websiterating" name="websiterating">
+          </div>
+        </div>
+
+        <div class="form-element">
+          <div class="form-label">
+            <label for="gender">Gender</label>
+          </div>
+          <div class="form-control-container">
+            <input type="radio" id="male" name="gender">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender">
+            <label for="female">Female</label>
+            <input type="radio" id="others" name="gender">
+            <label for="others">Others</label>
+          </div>  
+        </div>
+
+        <div class="form-element">
+          <div class="form-label">
+            &nbsp;
+          </div>
+          <div class="form-control-container">
+            <input type="checkbox" id="receivenewsletters" name="receivenewsletters">
+            <label for="receivenewsletters">Receive News Letters</label>
+          </div>
+        </div>
+
+      </div>
+      <!-- card body ends -->
+
+      <div class="card-footer">
+        <input type="hidden" name="usertype" value="customer">
+        <button class="btn">
+          <img src="img/ok.png" width="20px"> Submit
+        </button>
+        <input type="reset" class="btn reset-button" value="Clear">
+    
+      </div>
+    </div>
+
+  </form>
+</body>
+
+</html>
