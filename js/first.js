@@ -1,3 +1,5 @@
+
+
 // chrome -> inspect
 // node filename.js
 // code runner -> Arrow
@@ -18,7 +20,12 @@
 // console.log(typeof 123) 
 // console.log(123) 
 // console.log(typeof true) 
+// a = 46456456456545765768564765756756756856756765756765756756765765756756n
+// a = -1n 
 // console.log(typeof 100n) 
+// console.log(typeof a1) 
+// console.log(typeof a)
+// a 
 // console.log(typeof undefined)
 // console.log(typeof null)
 // console.log(typeof []) 
@@ -26,6 +33,15 @@
 // console.log(typeof function(){} ) 
 // console.log(typeof Symbol(100) ) 
 
+
+
+// let str1 = "Hello ";
+// let str2 = 'Hello ';
+// let str3 = `Hello `;
+
+// console.log(str1);
+// console.log(str2);
+// console.log(str3);
 
 // console.log("Hello")
 // console.log('Hello')
@@ -134,7 +150,6 @@
 // console.log(a);
 
 
-// 
 //array
 //collection of  "Homogenious" "indexed" elements called as "array"
 //[]
@@ -166,15 +181,20 @@
 // console.log(arr.length);                                      
 
 
+
+
 //insert  -- > //push()    //unshift()
 //delete -- > //pop()     //shift()
+
+
 // let arr = [20, 30, 40];
 // console.log(arr.length);                 
 // console.log(arr);                        
 // arr.push(50);
 // console.log(arr);                        
 // arr.unshift(10);
-// console.log(arr);                        
+// arr.unshift(0);
+// console.log(arr);
 // arr.pop();
 // console.log(arr);                        
 // arr.shift();
@@ -187,6 +207,10 @@
 // console.log(arr.length);                 
 // console.log(arr);                      
 // delete arr[0];
+// delete arr[1];
+// delete arr[2];
+// console.log(arr);                      
+// console.log(arr.length);                 
 // console.log(arr);                      
 // console.log(arr[0]);                   
 // console.log(arr.length);               
@@ -197,3 +221,17 @@
 // delete arr
 // console.log(arr)
 
+// -5  -4  -3  -2  -1
+// 10, 20, 30, 40, 50
+// 0   1   2   3   4
+
+// let arr = [10, 20, 30, 40, 50];
+// The splice() method of Array instances changes the contents of an array by removing or replacing existing elements and/or adding new elements in place.
+// arr.splice(3)
+// arr.splice(1)
+// arr.splice(1,2)
+// console.log(arr);
+// console.log(arr.splice(1,2));
+// arr.splice(-4,-1)
+// arr.splice(2,2,100,200,300,400)
+// console.log(arr);
