@@ -1,4 +1,4 @@
-
+// 
 
 // chrome -> inspect
 // node filename.js
@@ -226,6 +226,7 @@
 // 0   1   2   3   4
 
 // let arr = [10, 20, 30, 40, 50];
+
 // The splice() method of Array instances changes the contents of an array by removing or replacing existing elements and/or adding new elements in place.
 // arr.splice(3)
 // arr.splice(1)
@@ -235,3 +236,25 @@
 // arr.splice(-4,-1)
 // arr.splice(2,2,100,200,300,400)
 // console.log(arr);
+// let arr = [10, 20, 30, 40, 50];
+
+// arr1 = arr
+// arr.push(60)
+
+// arr1 = arr.splice(3)
+// arr.push(60)
+// arr.splice(3)
+// console.log(arr.splice(0))
+// console.log(arr);
+// console.log(arr1);
+
+
+let arr = [10, 20, 30, 40, 50];
+// arr1 = arr.splice(2,2)
+// arr1 = arr.slice(2,3)
+// arr1.push(100)
+// arr1 = arr.slice()
+
+
+console.log(arr1)
+console.log(arr)
