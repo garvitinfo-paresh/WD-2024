@@ -25,18 +25,20 @@
 
 // anonymous function
 
-let fun_one = function(myfun)
-{
-    console.log(myfun(10,20))
-}
-let do_sum =  function(x,y)
-{
-    // console.log(x+y)
-    return x+y
-}
+// let fun_one = function(myfun)
+// {
+//     console.log(myfun(10,20))
+// }
+// let do_sum =  function(x,y)
+// {
+//     // console.log(x+y)
+//     return x+y
+// }
 
 // fun_one(()=>{})
-fun_one(do_sum)
+// fun_one(do_sum)
 // 
 // console.log(typeof(()=>{}))
+
+
 

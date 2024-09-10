@@ -249,12 +249,113 @@
 // console.log(arr1);
 
 
-let arr = [10, 20, 30, 40, 50];
+// let arr = [10, 20, 30, 40, 50];
 // arr1 = arr.splice(2,2)
 // arr1 = arr.slice(2,3)
 // arr1.push(100)
 // arr1 = arr.slice()
 
 
-console.log(arr1)
-console.log(arr)
+// console.log(arr1)
+// console.log(arr)
+
+// concat()
+// const str1 = 'Hello';
+// const str2 = 'World';
+
+// console.log(str1.concat(' ', str2));
+
+// console.log(str2.concat(', ', str1));
+
+
+// split() 
+
+// const str = 'The quick brown fox jumps over the lazy dog.';
+
+// const words = str.split(' ');
+// console.log(words);
+// console.log(words[3]);
+
+// const chars = str.split('');
+// console.log(chars);
+
+// const strCopy = str.split();
+// console.log(strCopy);
+
+
+//indexOf()
+// const str = "Brave new world";
+
+// console.log(str.indexOf("w")); 
+// console.log(str.indexOf("new"));
+
+// const myString = "brie, pepper jack, cheddar";
+// const myCapString = "Brie, Pepper Jack, Cheddar";
+
+// console.log(myString.indexOf("cheddar")); 
+// console.log(myCapString.indexOf("cheddar")); 
+
+//lastIndexOf()
+
+// "canal".lastIndexOf("a"); 
+// "canal".lastIndexOf("a", 2); 
+// "canal".lastIndexOf("a", 0); 
+// "canal".lastIndexOf("x"); 
+// "canal".lastIndexOf("c", -5); 
+// "canal".lastIndexOf("c", 0); 
+// "canal".lastIndexOf(""); 
+// "canal".lastIndexOf("", 2); 
+
+// subString()
+// const str = 'Mozilla';
+
+// console.log(str.substring(1, 3));
+
+// console.log(str.substring(2));
+
+
+// const anyString = "Mozilla";
+
+// console.log(anyString.substring(0, 1)); 
+// console.log(anyString.substring(1, 0)); 
+// console.log(anyString.substring(0, 6)); 
+// console.log(anyString.substring(4)); 
+// console.log(anyString.substring(4, 7)); 
+// console.log(anyString.substring(7, 4)); 
+// console.log(anyString.substring(0, 7)); 
+// console.log(anyString.substring(0, 10)); 
+
+
+// trim()
+
+// greeting = '   Hello world!   ';
+
+// console.log(greeting);
+// console.log(greeting.trim());
+
+
+
+//replace()
+
+// const paragraph = "I think Ruth's dog is cuter than your dog!";
+
+// console.log(paragraph.replace("Ruth's", 'my'));
+
+
+
+//charAt()
+
+// const sentence = 'The quick brown fox jumps over the lazy dog.';
+// const index = 4;
+// console.log(`The character at index ${index} is ${sentence.charAt(index)}`);
+
+
+// const anyString = "Brave new world";
+// console.log(`The character at index 0   is '${anyString.charAt()}'`);
+
+// console.log(`The character at index 0   is '${anyString.charAt(0)}'`);
+// console.log(`The character at index 1   is '${anyString.charAt(1)}'`);
+// console.log(`The character at index 2   is '${anyString.charAt(2)}'`);
+// console.log(`The character at index 3   is '${anyString.charAt(3)}'`);
+// console.log(`The character at index 4   is '${anyString.charAt(4)}'`);
+// console.log(`The character at index 999 is '${anyString.charAt(999)}'`);
