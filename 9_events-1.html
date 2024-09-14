@@ -1,0 +1,74 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+   <title>Click Event Example</title>
+</head>
+<body>
+   <button id="clickButton">Click</button>
+   <p id = "output"></p>
+   <script>
+      const clickButton = document.getElementById('clickButton');
+      console.log(clickButton)
+      const outputDiv = document.getElementById("output");
+      clickButton.addEventListener('click', function(event) {
+        console.log(event)
+        outputDiv.innerHTML += 'Clicked!'+ JSON.stringify(event) + "<br>";
+      });
+   </script>
+</body>
+</html> -->
+<!-- 
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Double Click Event Example</title>
+</head>
+<body>
+   <button id="doubleClickButton">Double-click</button>
+   <p id = "output"></p>
+   <script>
+      const doubleClickButton = document.getElementById('doubleClickButton');
+      const outputDiv = document.getElementById("output");
+      doubleClickButton.addEventListener('dblclick', function(event) {
+         outputDiv.innerHTML += 'Double-clicked!' + JSON.stringify(event) + "<br>";
+      });
+   </script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JS Mouse Events - Button Demo</title>
+</head>
+<body>
+    <button id="btn">Click button with any mouse button: left, right, middle, ...</button>
+    <p id="message"></p>
+    <script>
+        let btn = document.querySelector('#btn');
+
+        // disable context menu when right-mouse clicked
+        btn.addEventListener('contextmenu', (e) => {
+            e.preventDefault();
+        });
+
+        // show the mouse event message
+        btn.addEventListener('mouseup', (e) => {
+            let msg = document.querySelector('#message');
+            switch (e.button) {
+                case 0:
+                    msg.textContent = 'Left mouse button clicked.';
+                    break;
+                case 1:
+                    msg.textContent = 'Middle mouse button clicked.';
+                    break;
+                case 2:
+                    msg.textContent = 'Right mouse button clicked.';
+                    break;
+                default:
+                    msg.textContent = `Unknown mouse button code: ${event.button}`;
+            }
+        });
+    </script>
+</body>
+</html>

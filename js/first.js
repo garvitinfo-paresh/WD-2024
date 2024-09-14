@@ -297,7 +297,10 @@
 
 //lastIndexOf()
 
-// "canal".lastIndexOf("a"); 
+// console.log("canal".indexOf("a") );
+// console.log("canal".lastIndexOf("a") );
+// console.log("canal".lastIndexOf("a",2) );
+// console.log("canal".lastIndexOf("a",-3) );
 // "canal".lastIndexOf("a", 2); 
 // "canal".lastIndexOf("a", 0); 
 // "canal".lastIndexOf("x"); 
@@ -309,8 +312,8 @@
 // subString()
 // const str = 'Mozilla';
 
-// console.log(str.substring(1, 3));
-
+// console.log(str.substring(2));
+// 
 // console.log(str.substring(2));
 
 
@@ -359,3 +362,45 @@
 // console.log(`The character at index 3   is '${anyString.charAt(3)}'`);
 // console.log(`The character at index 4   is '${anyString.charAt(4)}'`);
 // console.log(`The character at index 999 is '${anyString.charAt(999)}'`);
+
+
+// const birthday = new Date('August 19, 1975 23:15:30');
+// const date1 = birthday.getDate();
+
+// console.log(date1);
+// Expected output: 19
+
+
+// const birthday = new Date('August 19, 1975 23:15:30');
+// const date1 = birthday.getDate();
+// console.log(date1);
+
+
+// const birthday = new Date('August 19, 1975 23:15:30');
+// const day1 = birthday.getDay();
+// // Sunday - Saturday : 0 - 6
+// console.log(day1);
+
+// const moonLanding = new Date('July 20, 69 00:20:18');
+// console.log(moonLanding.getMonth()); // (January gives 0)
+
+// const birthday = new Date('March 13, 08 04:20');
+// console.log(birthday.getHours());
+
+// const myDate = new Date('August 19, 1975 23:15:30');
+// myDate.setMonth(3);
+// console.log(myDate.getMonth());
+// console.log(myDate);
+
+
+
+// const myDate = new Date('August 19, 1975 23:15:30');
+// myDate.setDate(24);
+// console.log(myDate.getDate());
+// myDate.setDate(32);
+// console.log(myDate.getDate());
+
+
+// const myDate = new Date('August 19, 1975 23:15:30');
+// console.log(myDate.toString());
+
